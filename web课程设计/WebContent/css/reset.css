@@ -1,0 +1,27 @@
+/*清除页面元素默认样式*/
+body,h1,h2,h3,h4,h5,h6,p,ol,ul{
+	margin: 0;
+}
+ol,ul,p,input{
+	padding: 0;
+}
+ol,ul{
+	/*取消列表元素前面的原点*/
+	list-style: none;
+}
+a{
+	/*去掉a标签的下划线*/
+	text-decoration: none;
+}
+
+img{
+	border: none;
+	/*可以设置元素为块级或者内嵌元素*/
+	display: block;
+}
+
+
+
+
+
+
